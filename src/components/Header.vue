@@ -50,6 +50,7 @@
 			<ul class="header-collapse__menu">
 				<li v-if="gameActive  && $route.name !== 'overview'" class="header-top__item"><a @click.prevent="linkPush" href="/overview">Overview</a></li>
 				<li v-if="gameActive  && $route.name !== 'play'" class="header-top__item"><a @click.prevent="playBtn">Continue</a></li>
+				<li v-if="gameActive" v-bind:key="2" class="header-top__item"><a @click.prevent="previousBtn">Previous</a></li>
 				<li v-if="$store.state.game === null" class="header-top__item"><a @click.prevent="linkPush" href="/">Commencer</a></li>
 				<li v-if="$store.state.game !== null" class="header-top__item"><a @click.prevent="stopBtn" href="/stop">Arrêter</a></li>
 				<span class="header-collapse__item-separator"></span>

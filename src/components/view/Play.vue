@@ -152,6 +152,7 @@ export default {
 
 		// Called at creation and reload for setting base datas value
 		load: function () {
+			window.scrollTo(0, 0)
 			if (this.$store.state.game === null) this.$router.push('/');
 			this.user = this.$store.state.game.getPlayer()
 			this.score = new Score()
