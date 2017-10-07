@@ -5,6 +5,9 @@
 <a href="https://codeclimate.com/github/SolalDR/421-vue"><img src="https://codeclimate.com/github/SolalDR/421-vue/badges/issue_count.svg" /></a>
 > A Vue.js project
 
+421 is a game of dice which can be played by at least by 2 peaple. This webapplication is developped in Vue.js and facilitate the counting of points.
+<a href="http://421.solaldussout-revel.com">Click here</a> to visit the online app.
+
 ## Build Setup
 
 ``` bash
